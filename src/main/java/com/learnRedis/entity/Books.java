@@ -15,10 +15,10 @@ import lombok.NoArgsConstructor;
 @RedisHash("books")
 public class Books implements Serializable{
 	
+
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 2580171137258418297L;
 	@Id
 	private Integer id;
 	private String title;
